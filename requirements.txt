@@ -23,6 +23,7 @@ py-yt-search
 requests
 speedtest-cli
 spotipy
+SafoneAPI
 tgcrypto
 unidecode
 yt-dlp
@@ -30,3 +31,4 @@ youtube-search
 youtube-search-python
 wget
 git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/AsmSafone/SafoneAPI
