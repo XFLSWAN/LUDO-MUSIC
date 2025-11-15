@@ -19,7 +19,6 @@ pykeyboard
 pyrofork
 python-dotenv
 pyyaml
-py-yt-search
 requests
 speedtest-cli
 spotipy
