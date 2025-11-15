@@ -1,5 +1,5 @@
 import time
-import asyncio  # asyncio ko import karna na bhulein
+import asyncio
 from pyrogram import filters
 from pyrogram.errors import ChannelInvalid
 from pyrogram.enums import ChatType, ChatMembersFilter
@@ -29,12 +29,6 @@ from strings import get_string
 @LanguageStart
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
-
-    # Typing effect removed (message will send normally)
-    await message.reply("<b>𝖣ɪɴɢ..𝖣ᴏɴɢ..❤️‍🔥</b>")
-    await message.reply("<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>")
-
-    # Continue with the existing logic (unchanged)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
 
