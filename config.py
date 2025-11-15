@@ -82,10 +82,10 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/7bb907999ea7156227283.jpg")
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
